@@ -26,8 +26,6 @@ for (let i = 1; i < 101; i++){
   newDiv.appendChild(newX);
   newDiv.appendChild(newFone);
   console.log(newDiv)
-  newDiv.setAttribute('href', 'https://wa.me//5551998497549?text=Tenho%20interesse%20em%20comprar%20o%20número%20'+iStr+'%20da%20rifa.')
-  newDiv.setAttribute('target', '_blank')
   newFone.className = 'fone';
   newDiv.className = 'circle';
   newNum.className = 'num';
@@ -39,7 +37,9 @@ for (let i = 1; i < 101; i++){
   else { 
     newDiv.classList.remove('vermelho')
     newDiv.classList.add('verde')
-  };
+    newDiv.setAttribute('href', 'https://wa.me//5551998497549?text=Tenho%20interesse%20em%20comprar%20o%20número%20'+iStr+'%20da%20rifa.')
+    newDiv.setAttribute('target', '_blank')
+    };
   // newDiv.addEventListener('onClick', ()=> ({ 'https://wa.me/5551998497549/?text=textourl e insira seu número de telefone' } ))
   dezenasContainer.className = 'numbers-container';
   dezenasContainer.append(newDiv);

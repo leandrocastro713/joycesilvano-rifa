@@ -8,11 +8,15 @@
   position:relative;
   margin: 0 auto;
   display:flex;
+  width:400px;
+  max-width: 100%;
+  ;;
 }
 .numbers{
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
+  background: linear-gradient(#a05977, rgb(201, 155, 211));
 }
 .numbers h2{
   position:relative;
