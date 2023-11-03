@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Agbalumo','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(51, 24, 24);
 }
 #imgRifa{
   position:relative;
@@ -20,12 +21,17 @@
 }
 .numbers h2{
   position:relative;
-  color:black;
+  color:rgb(62, 42, 63);
+  margin: 2rem 0 1rem;
   text-align: center;
   width:100%;
 }
+.numbers p{
+  text-align: center;
+}
 .numbers-container{
   display: flex;
+  margin: 1rem 0;
   padding: 10px 20px;
   justify-content: space-around;
   flex-direction: row;
@@ -48,6 +54,7 @@
   border-radius: 20px;
 }
 .fone{
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 .num{
