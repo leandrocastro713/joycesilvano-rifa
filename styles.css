@@ -4,23 +4,44 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#imgRifa{
+  position:relative;
+  margin: 0 auto;
+  display:flex;
+}
 .numbers{
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
+.numbers h2{
+  position:relative;
+  color:black;
+  text-align: center;
+  width:100%;
+}
 .numbers-container{
   display: flex;
+  padding: 10px 20px;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .circle{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
   width: 60px;
   height: 60px;
   padding: 8px 8px;
   margin: 2px;
   border: 2px solid silver;
   border-radius: 15px;
+}
+.circle :hover{
+  transition: ease 300ms;
+  transform: scale(1.1);
+  border-radius: 20px;
 }
 .fone{
   font-size: 10px;
