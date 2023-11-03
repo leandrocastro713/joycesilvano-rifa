@@ -17,7 +17,10 @@
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background: linear-gradient(#a05977, rgb(201, 155, 211));
+  background-image: url('./textura.jpeg'); 
+  /* background-color: linear-gradient(#ca84a1, rgb(201, 155, 211)); */
+  background-color: #e4aec4;
+  background-blend-mode: multiply;
 }
 .numbers h2{
   position:relative;
@@ -45,7 +48,7 @@
   height: 60px;
   padding: 8px 8px;
   margin: 2px;
-  border: 2px solid silver;
+  border: 2px solid rgb(148, 146, 146);
   border-radius: 15px;
 }
 .circle :hover{
