@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.numbers{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.numbers-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  padding: 8px 8px;
+  margin: 2px;
+  border: 2px solid silver;
+  border-radius: 15px;
+}
+.fone{
+  font-size: 10px;
+}
+.num{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.vermelho{
+  background-color: rgb(253, 159, 159);
+}
+.verde{
+   background-color: rgb(159, 230, 159);
+}
