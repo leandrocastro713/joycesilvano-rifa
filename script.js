@@ -47,5 +47,5 @@ for (let i = 1; i < 101; i++){
 } 
 
 function pixPaid(){
-  navigator.clipboard.writeText('00020126670014br.gov.bcb.pix0125joyce_silvano@hotmail.com0216Rifa Tratamento 52040000530398654040.005802BR5925JOYCE BEATRIZ DOS SANTOS 6009SAO PAULO62070503***63044BF4').then(()=>alert('Texto copiado para a Area de Transferência. Agora é só colar no seu aplicativo em que faz o PIX.'))
+  navigator.clipboard.writeText('00020126670014br.gov.bcb.pix0125joyce_silvano@hotmail.com0216RifaTratamento52040000530398654040.005802BR5925JOYCEBEATRIZDOSSANTOS6009SAOPAULO62070503***63044BF4').then(()=>alert('Texto copiado para a Area de Transferência. Agora é só colar no seu aplicativo em que faz o PIX.'))
 }
