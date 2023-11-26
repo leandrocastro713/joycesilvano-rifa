@@ -4,22 +4,22 @@ let apostas = ['111112003',,,'111112336',,,,,,,
                ,,,,,,,,,,
                ,,'111112588',,,,,,'111115252',,
                ,,,,,,,'11118901',,,
-               '11118785',,,,,,,,,,
+               '11118785',,'111119877',,,,,,,,
                ,,,,,,,,,,
-               ,,,,,,,,,,
+               ,,,,,,,,,'111119099',
                ,,,,,,,'981166773',,,
-               ,,,,,,,,'111112223',,  ]
+               ,,,,,,'111110100',,'111112223',,  ]
 
 let nomes = [ 'N',,,'N',,,,,,,
               ,,,,,,,,,,
               ,,,,,,,,,,
               ,,'N',,,,,,'N',,
               ,,,,,,,'N',,,
-              'N',,,,,,,,,,
+              'N',,'N',,,,,,,,
               ,,,,,,,,,,
-              ,,,,,,,,,,
+              ,,,,,,,,,'N',
               ,,,,,,,'Elizete Marques',,,
-              ,,,,,,,,'N',,
+              ,,,,,,'N',,'N',,
 ]  
 for (let i = 1; i < 101; i++){
   let newDiv = document.createElement('a');
@@ -35,7 +35,7 @@ for (let i = 1; i < 101; i++){
   newDiv.appendChild(newNum);
   newDiv.appendChild(newX);
   newDiv.appendChild(newFone);
-  console.log(newDiv)
+  //console.log(newDiv)
   newFone.className = 'fone';
   newDiv.className = 'circle';
   newNum.className = 'num';
